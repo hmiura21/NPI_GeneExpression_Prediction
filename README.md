@@ -80,16 +80,10 @@ Breast cancer prognosis is currently determined using features like tumor size a
 
 ```bash
 ├── data/
-│   └── metabric.csv             # Raw input dataset
+│   └── METABRIC_RNA_Mutation.xlsx             # Raw input dataset
 ├── notebooks/
-│   ├── preprocessing.ipynb      # Data cleaning and NPI conversion
-│   ├── pca_lda_analysis.ipynb   # Dimensionality reduction analysis
-│   ├── logistic_regression.ipynb
-│   ├── decision_tree_lightgbm.ipynb
-│   └── resnet_model.ipynb
-├── models/
-│   └── trained_models/          # Saved model weights and configs
-├── figures/
-│   └── *.png                    # Visualizations used in the report
+│   ├── logistic_regression_NPI_Final.ipynb
+│   ├── decision_tree_NPI.ipynb
+│   └── ResNet.ipynb
 ├── README.md
-└── report.pdf                   # Final detailed report (includes methods, results, and figures)
+└── A Multi-Model Evaluation for Predicting Nottingham Prognostic Index from Breast Cancer Gene Expression Profiles.pdf                   # Final detailed report (includes methods, results, and figures)
